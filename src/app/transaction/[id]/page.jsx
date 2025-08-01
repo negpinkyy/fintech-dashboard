@@ -3,8 +3,8 @@ import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { ArrowLeft, Calendar, CreditCard, Building, Hash, Tag } from 'lucide-react'
 import Link from 'next/link'
-import LoadingSpinner from '@/components/LoadingSpinner'
-import ErrorMessage from '@/components/ErrorMessage'
+import LoadingSpinner from '../../../components/LoadingSpinner'
+import ErrorMessage from '../../../components/ErrorMessage'
 
 export default function TransactionDetail({ params }) {
   const [transaction, setTransaction] = useState(null)
