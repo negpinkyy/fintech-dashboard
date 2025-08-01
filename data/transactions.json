@@ -1,0 +1,90 @@
+[
+  {
+    "id": "txn_001",
+    "amount": -850.00,
+    "description": "Monthly Rent Payment",
+    "date": "2025-07-30T09:15:00Z",
+    "status": "completed",
+    "type": "debit",
+    "category": "Housing",
+    "merchant": "Property Management LLC",
+    "reference": "REF001"
+  },
+  {
+    "id": "txn_002",
+    "amount": 3200.00,
+    "description": "Salary Deposit",
+    "date": "2025-07-29T14:30:00Z",
+    "status": "completed",
+    "type": "credit",
+    "category": "Income",
+    "merchant": "Tech Corp Inc",
+    "reference": "PAY202407"
+  },
+  {
+    "id": "txn_003",
+    "amount": -45.99,
+    "description": "Grocery Shopping",
+    "date": "2025-07-28T16:45:00Z",
+    "status": "completed",
+    "type": "debit",
+    "category": "Food",
+    "merchant": "Fresh Market",
+    "reference": "GRO123"
+  },
+  {
+    "id": "txn_004",
+    "amount": -120.50,
+    "description": "Gas Station",
+    "date": "2025-07-27T12:20:00Z",
+    "status": "completed",
+    "type": "debit",
+    "category": "Transportation",
+    "merchant": "Shell Gas Station",
+    "reference": "GAS456"
+  },
+  {
+    "id": "txn_005",
+    "amount": -25.00,
+    "description": "Coffee Shop",
+    "date": "2025-07-26T08:30:00Z",
+    "status": "pending",
+    "type": "debit",
+    "category": "Food",
+    "merchant": "Starbucks",
+    "reference": "COF789"
+  },
+  {
+    "id": "txn_006",
+    "amount": 500.00,
+    "description": "Freelance Payment",
+    "date": "2025-07-25T11:00:00Z",
+    "status": "completed",
+    "type": "credit",
+    "category": "Income",
+    "merchant": "Client ABC",
+    "reference": "FRL001"
+  },
+  {
+    "id": "txn_007",
+    "amount": -89.99,
+    "description": "Online Shopping",
+    "date": "2025-07-24T19:15:00Z",
+    "status": "failed",
+    "type": "debit",
+    "category": "Shopping",
+    "merchant": "Amazon",
+    "reference": "AMZ987"
+  },
+  {
+    "id": "txn_008",
+    "amount": -15.99,
+    "description": "Netflix Subscription",
+    "date": "2025-07-23T00:01:00Z",
+    "status": "completed",
+    "type": "debit",
+    "category": "Entertainment",
+    "merchant": "Netflix",
+    "reference": "NET123"
+  }
+]
