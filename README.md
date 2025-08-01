@@ -4,7 +4,7 @@ A simple Fintech Dashboard built with Next.js App Router. It displays account ba
 
 🚀 Live Demo
 Live Demo on Vercel
-
+fintech-dash-seven.vercel.app
 
 📦 Tech Stack
 Next.js (App Router)
