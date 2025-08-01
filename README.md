@@ -1,37 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Fintech Dashboard
 
-## Getting Started
+A simple Fintech Dashboard built with Next.js App Router. It displays account balance and transactions using local JSON files as mock APIs.
 
-First, run the development server:
+🚀 Live Demo
+Live Demo on Vercel
 
-```bash
+
+📦 Tech Stack
+Next.js (App Router)
+
+Local JSON APIs
+
+Tailwind CSS 
+
+🧩 Features
+Display current account balance
+
+List of transactions
+
+Clickable transactions to view details
+
+Search and filter transactions by status
+
+API routes reading from local /data folder
+
+📁 Folder Structure
+graphql
+Copy
+Edit
+src/
+├── app/
+│   ├── api/             # API routes using JSON data
+│   ├── components/      # Reusable UI components
+│   ├── page.jsx         # Main dashboard page
+│   └── layout.jsx       # Shared layout (e.g., Navbar)
+├── data/                # JSON files for account and transactions
+
+
+🛠️ Getting Started
+Clone the repo
+
+git clone https://github.com/negpinkyy/fintech-dashboard.git
+
+cd fintech-dashboard
+
+Install dependencies
+
+npm install
+# or
+yarn install
+
+Run the development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 to view the dashboard.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# fintech-dashboard
